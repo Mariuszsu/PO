@@ -2,17 +2,18 @@
 {
     class SurówkaZMarchewki : DanieDekorator
     {
+        public static double x = 2.5;
         public SurówkaZMarchewki(Danie danie) : base(danie)
         {
 
         }
         public override double GetCena()
         {
-            return base.GetCena() + 2.5;
+            return base.GetCena() + x;
         }
         public override string GetName()
         {
-            return base.GetName() + "Surowka z Burakow ";
+            return base.GetName() + "Surowkę z Marchewki ";
         }
 
     }

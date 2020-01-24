@@ -58,7 +58,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Menu.cs" />
     <Compile Include="Danie.cs" />
     <Compile Include="DanieDekorator.cs" />
     <Compile Include="Kasa.cs" />
@@ -66,7 +66,6 @@
     <Compile Include="Kotlet_Mielony.cs" />
     <Compile Include="Kotlet_schabowy.cs" />
     <Compile Include="Osoba.cs" />
-    <Compile Include="Paragon.cs" />
     <Compile Include="Pracownik.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,15 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Database1.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Database1_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>Database1.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">

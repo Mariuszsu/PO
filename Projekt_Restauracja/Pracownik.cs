@@ -19,22 +19,22 @@ namespace Projekt_Restauracja
             }
             else if (reszta > 0)
             {
-                Console.WriteLine("Oto Pańska reszta");
+                Console.WriteLine("Oto Pańskska reszta");
                 Kasa.stan_kasy += cena;
                 Console.WriteLine("{0} zł", reszta);
-                Console.WriteLine("Dziękujemy i zapraszamy ponownie");
+                Console.WriteLine("Dziękujemy i życzymy smacznego");
             }
             else
             {
                 Kasa.stan_kasy += cena;
-                Console.WriteLine("Dziękujemy i zapraszamy ponownie");
+                Console.WriteLine("Dziękujemy i życzymy smacznego");
             }
 
 
         }
         public static void PrzedstawSie(string imie)
         {
-            Console.WriteLine("Dzien dobry nazywam sie {0} i będę Państwa obsługiwał \nProsze o to menu ", imie);
+            Console.WriteLine("Dzien dobry nazywam sie {0} i będę Państwa obsługiwał \nProsze o to nasze menu ", imie);
             Console.WriteLine();
             Menu.PokazMenu();
             Console.WriteLine();

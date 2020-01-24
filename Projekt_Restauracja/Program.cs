@@ -23,26 +23,24 @@ namespace Projekt_Restauracja
             Zestaw1 = new Kotlet_schabowy(Zestaw1);
             Zestaw1 = new Ziemniaki(Zestaw1);
             Zestaw1 = new SurówkaZMarchewki(Zestaw1);
+            
             cena = Zestaw1.GetCena();
-            Console.WriteLine("Poprosze " + Zestaw1.GetName());
-
+            Console.WriteLine("Poprosze " + Zestaw1.GetName());            
+            Kamil.WydajReszte(Klient.pieniadze, cena);
+            Console.WriteLine();
+            Console.WriteLine("Klient 2");
             Danie Zestaw2 = new Zestaw();
             Zestaw2 = new Kotlet_Mielony(Zestaw2);
             Zestaw2 = new Ryz(Zestaw2);
             Zestaw2 = new SurówkaZMarchewki(Zestaw2);
             Zestaw2 = new SurowkaZBurakow(Zestaw2);
             cena2 = Zestaw2.GetCena();
-
-
-
-
-
-            Kamil.WydajReszte(Klient.pieniadze, cena);
-            Console.WriteLine("\n\nKlient 2");
             Klient Patryk = new Klient("Patryk", "Klient", 10);
             Kamil.WydajReszte(Klient.pieniadze, cena2);
+            Console.WriteLine();
+
             Przychód_dzienny(stan_kasy);
-            Console.WriteLine("Koncowy stan kasy {0}", stan_kasy);
+            Console.WriteLine("Stan kasy na koniec dnia {0}", stan_kasy);
             Console.ReadKey();
         }
     }
