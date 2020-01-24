@@ -1,0 +1,7 @@
+C:\Users\PC\source\repos\Projekt_Restauracja\bin\Debug\Projekt_Restauracja.exe.config
+C:\Users\PC\source\repos\Projekt_Restauracja\bin\Debug\Projekt_Restauracja.exe
+C:\Users\PC\source\repos\Projekt_Restauracja\bin\Debug\Projekt_Restauracja.pdb
+C:\Users\PC\source\repos\Projekt_Restauracja\obj\Debug\Projekt_Restauracja.exe
+C:\Users\PC\source\repos\Projekt_Restauracja\obj\Debug\Projekt_Restauracja.pdb
+C:\Users\PC\source\repos\Projekt_Restauracja\bin\Debug\Database1.mdf
+C:\Users\PC\source\repos\Projekt_Restauracja\bin\Debug\Database1_log.ldf
